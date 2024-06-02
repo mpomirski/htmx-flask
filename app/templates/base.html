@@ -1,0 +1,14 @@
+{% import "_macros.html" as macros %}
+
+<html lang="en">
+{{ macros.head() }}
+
+<body>
+    <div class="container my-5">
+        {% block content %}
+        <h1>My app</h1>
+        {% endblock %}
+    </div>
+</body>
+
+</html>
